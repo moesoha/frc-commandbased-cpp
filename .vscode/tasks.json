@@ -1,0 +1,49 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build FRCUserProgram",
+			"type": "shell",
+			"command": "./gradlew build",
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "Build FRCUserProgram (verbose)",
+			"type": "shell",
+			"command": "./gradlew build --info",
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "Deploy to RoboRIO",
+			"type": "shell",
+			"command": "./gradlew deploy",
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "Start RIOLog",
+			"type": "shell",
+			"command": "./gradlew riolog",
+			"group": "none",
+			"problemMatcher": []
+		},
+		{
+			"label": "Start ShuffleBoard",
+			"type": "shell",
+			"command": "./gradlew shuffleboard",
+			"group": "none",
+			"problemMatcher": []
+		},
+		{
+			"label": "Start SmartDashboard",
+			"type": "shell",
+			"command": "./gradlew smartDashboard",
+			"group": "none",
+			"problemMatcher": []
+		}
+	]
+}

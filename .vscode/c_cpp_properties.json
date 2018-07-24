@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "FRC C++ Windows",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "C:/frc/bin/arm-frc-linux-gnueabi-gcc.exe",
+            "includePath": [
+				"${workspaceFolder}",
+				"${env:USERPROFILE}\\wpilib\\cpp\\current\\include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+					"${env:USERPROFILE}\\wpilib\\cpp\\current\\include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
